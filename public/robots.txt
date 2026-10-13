@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://drakarenxavier.com
+Sitemap: https://drakarenxavier.com/sitemap.xml

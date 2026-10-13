@@ -32,3 +32,13 @@ Para adicionar um caso:
 1. Separe o antes e o depois em dois arquivos do mesmo tamanho, com o mesmo enquadramento e a mesma luz. Se a foto vier montada, corte sem redimensionar.
 2. Fotos muito verticais ficam melhores recortadas em 4:5, na mesma área nas duas fotos.
 3. Adicione o caso na lista `results` em `src/lib/site.ts`, com a largura e a altura da foto em `width` e `height`.
+
+## Publicar
+
+O site é exportado como arquivos estáticos (`out/`) e hospedado no Cloudflare Pages. Antes de cada build, `scripts/optimize-images.mjs` gera versões WebP das fotos em `public/_img/`.
+
+```bash
+npm run deploy
+```
+
+Na primeira vez, o Wrangler abre o navegador para entrar na conta da Cloudflare.
