@@ -168,7 +168,7 @@ function About() {
           <h2 className="font-serif text-4xl font-light text-ink md:text-5xl">Prazer, sou a Karen.</h2>
           <div className="mt-6 space-y-4 leading-relaxed text-taupe">
             <p>
-              Sou cirurgiã-dentista e me especializei em harmonização facial. Gosto de resultados discretos: você se olha
+              Sou cirurgiã-dentista e atuo na área de Harmonização Orofacial. Gosto de resultados discretos: você se olha
               no espelho e continua se reconhecendo, só que com o rosto mais descansado.
             </p>
             <p>
